@@ -62,6 +62,4 @@ CHIP ALU {
     Or(a=oroutlsb,b=oroutmsb,out=nzr);
     Not(in=nzr,out=zr);
 
-
-
 }
